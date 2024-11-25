@@ -1,5 +1,5 @@
 class Student:
-    def _init_(self, name, scores):
+    def __init__(self, name, scores):
         self.name = name
         self.scores = scores
         self.subjects = ['Math 🧮', 'Science 🔬', 'English 📚']
@@ -29,7 +29,7 @@ class Student:
 
 
 class PerformanceTracker:
-    def _init_(self):
+    def __init__(self):
         self.students = {}
     
     def add_student(self, name, scores):
